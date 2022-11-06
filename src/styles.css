@@ -1,0 +1,13 @@
+/* SVG Animation */
+svg path,
+svg rect{
+  fill: rgb(162, 157, 157);
+
+}
+.svg_tittle {
+  color: rgb(162, 157, 157);
+  padding: 0;
+  margin: 0;
+}
+
+

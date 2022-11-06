@@ -1,0 +1,54 @@
+<footer class="ae-container-fluid rk-footer ">
+  <div class="ae-grid ae-grid--collapse">
+    <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
+      <ul class="rk-menu rk-footer-menu">
+        <li routerLinkActive="active" class="rk-menu__item    ">
+          <a routerLink="home" class="rk-menu__link">Home</a>
+        </li>
+        <li class="rk-menu__item">
+          <a routerLink="about"  class="rk-menu__link">Nosotros</a>
+        </li>
+        <li class="rk-menu__item"><a href="mailTo:{{_servicio.info.email}}" class="rk-menu__link">Contacto</a>
+        </li>
+      </ul>
+      <p class="rk-footer__text rk-footer__copy ">
+        <span class="ae-u-bold">© </span><span class="ae-u-bolder">{{year}} Mateo Tavera </span>All Right Reserved.
+      </p>
+    </div>
+    <div class="ae-grid__item item-lg-4 au-xs-ta-center">
+      <a target="_blank" [href]="_servicio.info.facebook" class="rk-social-btn ">
+        <svg>
+          <use xlink:href="assets/img/symbols.svg#icon-facebook"></use>
+        </svg>
+      </a>
+      <a target="_blank" [href]="_servicio.info.twitter" class="rk-social-btn ">
+        <svg>
+          <use xlink:href="assets/img/symbols.svg#icon-twitter"></use>
+        </svg>
+      </a>
+      <a target="_blank" [href]="_servicio.info.instagram" class="rk-social-btn ">
+        <svg>
+          <use xlink:href="assets/img/symbols.svg#icon-pinterest"></use>
+        </svg>
+      </a>
+      <a target="_blank" [href]="_servicio.info.tumblr" class="rk-social-btn  ">
+        <svg>
+          <use xlink:href="assets/img/symbols.svg#icon-tumblr"></use>
+        </svg>
+      </a>
+      <a target="_blank" [href]="_servicio.info.linkedink" class="rk-social-btn  ">
+     <img src="assets/img/symbols-linkedink.svg" alt="logo/linkedink" >
+      </a>
+    </div>
+    <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
+      <p class="rk-footer__text rk-footer__contact ">
+        <span class="ae-u-bold">Email: </span>
+        <span class="ae-u-bolder">
+          <a target="_blank" href="mailTo:{{_servicio.info.email}}" class="rk-dark-color "> {{_servicio.info.email}}</a>
+        </span>
+      </p>
+      <p class="rk-footer__text rk-footer__by">Css_Matiiu
+      </p>
+    </div>
+  </div>
+</footer>
